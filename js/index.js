@@ -2,7 +2,6 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 ScrollReveal().reveal('.gridChild');
-
 function typeEffect(element, speed) {
 	var text = element.innerHTML;
 	element.innerHTML = "";
